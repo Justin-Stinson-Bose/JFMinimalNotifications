@@ -21,6 +21,7 @@ let package = Package(
         .target(
             name: "JFMinimalNotifications",
             dependencies: [],
-            path: "JFMinimalNotification"),
+            path: "JFMinimalNotification",
+            publicHeadersPath: ".")
     ]
 )
